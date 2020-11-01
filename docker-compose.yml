@@ -25,6 +25,3 @@ services:
      - POSTGRES_DB=app
      - POSTGRES_USER=postgres
      - POSTGRES_PASSWORD=supersecretpassword
-   restart: always
-   ports:
-     - 5432:5432
